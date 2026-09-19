@@ -1,6 +1,3 @@
-Write your reflection here.
-
-See reflection.md for what makes a good reflection — be specific, use the
-terminology from this assignment (package, module, ETL, coercion, public API,
-relative import, accumulator, group by, unit vs. integration test), and make it
-actionable.
+In this assignment we learned how to use modules to better break up our work and keep it more organized. The pipeline we built seperated the modules into extracting the data, transforming it into what we needed and displaying it. We could then build our reports using those modules.
+ I underestimated how rusty my Python was at the start as it has been over 2 years since I took IST 256. Specifically I struggled to understnad how to use basic terminology such as .replace(), .strip() and += and how they worked into the basic code. Once I was able to work through those errors, I felt more confident how mt basic Python skills were getting. In this assignment I think the most important thing I took away was package structure and what makes them better for data pipeline projects than seperate code scripts. I also learned what how init.py makes the folder importable and defines the public API.
+ Next I want to practice reading errors on my own. I had to look up certain KeyErrors, NameErros, and ValueErrors I was getting because I was not sure how to troubleshoot the code. Next assignment I want to practice more with the debugger so I can further understand my code and how it works.
